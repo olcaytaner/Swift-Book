@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E66840471A70DEB900CFC678 /* Kelime.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66840461A70DEB900CFC678 /* Kelime.swift */; };
+		E66840491A70DF0300CFC678 /* Anlam.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66840481A70DF0300CFC678 /* Anlam.swift */; };
+		E668404B1A70DF6300CFC678 /* SozlukKelime.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668404A1A70DF6300CFC678 /* SozlukKelime.swift */; };
+		E668404D1A70E02A00CFC678 /* KaynakKelime.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668404C1A70E02A00CFC678 /* KaynakKelime.swift */; };
+		E668404F1A70E0C600CFC678 /* Ceviri.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668404E1A70E0C600CFC678 /* Ceviri.swift */; };
+		E66840511A70E18200CFC678 /* SozlukEkran.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66840501A70E18200CFC678 /* SozlukEkran.swift */; };
+		E66840531A70E21200CFC678 /* CeviriEkran.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66840521A70E21200CFC678 /* CeviriEkran.swift */; };
+		E66840551A70EBC100CFC678 /* CeviriSozluk.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66840541A70EBC100CFC678 /* CeviriSozluk.swift */; };
+		E6FA49A31A70132E0033E6E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FA49A21A70132E0033E6E8 /* AppDelegate.swift */; };
+		E6FA49AA1A70132E0033E6E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6FA49A91A70132E0033E6E8 /* Images.xcassets */; };
+		E6FA49AD1A70132E0033E6E8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6FA49AB1A70132E0033E6E8 /* LaunchScreen.xib */; };
+		E6FA49B91A70132E0033E6E8 /* SozlukTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FA49B81A70132E0033E6E8 /* SozlukTests.swift */; };
+		E6FA49C61A70138E0033E6E8 /* AnaEkran.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6FA49C21A70138E0033E6E8 /* AnaEkran.storyboard */; };
+		E6FA49C71A70138E0033E6E8 /* english-turkish.xml in Resources */ = {isa = PBXBuildFile; fileRef = E6FA49C31A70138E0033E6E8 /* english-turkish.xml */; };
+		E6FA49C81A70138E0033E6E8 /* Sozluk.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FA49C41A70138E0033E6E8 /* Sozluk.swift */; };
+		E6FA49C91A70138E0033E6E8 /* turkish-dictionary.xml in Resources */ = {isa = PBXBuildFile; fileRef = E6FA49C51A70138E0033E6E8 /* turkish-dictionary.xml */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6FA49B31A70132E0033E6E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6FA49951A70132E0033E6E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6FA499C1A70132E0033E6E8;
+			remoteInfo = Sozluk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E66840461A70DEB900CFC678 /* Kelime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kelime.swift; sourceTree = "<group>"; };
+		E66840481A70DF0300CFC678 /* Anlam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Anlam.swift; sourceTree = "<group>"; };
+		E668404A1A70DF6300CFC678 /* SozlukKelime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SozlukKelime.swift; sourceTree = "<group>"; };
+		E668404C1A70E02A00CFC678 /* KaynakKelime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KaynakKelime.swift; sourceTree = "<group>"; };
+		E668404E1A70E0C600CFC678 /* Ceviri.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ceviri.swift; sourceTree = "<group>"; };
+		E66840501A70E18200CFC678 /* SozlukEkran.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SozlukEkran.swift; sourceTree = "<group>"; };
+		E66840521A70E21200CFC678 /* CeviriEkran.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CeviriEkran.swift; sourceTree = "<group>"; };
+		E66840541A70EBC100CFC678 /* CeviriSozluk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CeviriSozluk.swift; sourceTree = "<group>"; };
+		E6FA499D1A70132E0033E6E8 /* Sozluk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sozluk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6FA49A11A70132E0033E6E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6FA49A21A70132E0033E6E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E6FA49A91A70132E0033E6E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E6FA49AC1A70132E0033E6E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E6FA49B21A70132E0033E6E8 /* SozlukTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SozlukTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6FA49B71A70132E0033E6E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6FA49B81A70132E0033E6E8 /* SozlukTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SozlukTests.swift; sourceTree = "<group>"; };
+		E6FA49C21A70138E0033E6E8 /* AnaEkran.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AnaEkran.storyboard; sourceTree = "<group>"; };
+		E6FA49C31A70138E0033E6E8 /* english-turkish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "english-turkish.xml"; sourceTree = "<group>"; };
+		E6FA49C41A70138E0033E6E8 /* Sozluk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sozluk.swift; sourceTree = "<group>"; };
+		E6FA49C51A70138E0033E6E8 /* turkish-dictionary.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "turkish-dictionary.xml"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6FA499A1A70132E0033E6E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6FA49AF1A70132E0033E6E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6FA49941A70132E0033E6E8 = {
+			isa = PBXGroup;
+			children = (
+				E6FA499F1A70132E0033E6E8 /* Sozluk */,
+				E6FA49B51A70132E0033E6E8 /* SozlukTests */,
+				E6FA499E1A70132E0033E6E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6FA499E1A70132E0033E6E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6FA499D1A70132E0033E6E8 /* Sozluk.app */,
+				E6FA49B21A70132E0033E6E8 /* SozlukTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6FA499F1A70132E0033E6E8 /* Sozluk */ = {
+			isa = PBXGroup;
+			children = (
+				E6FA49C21A70138E0033E6E8 /* AnaEkran.storyboard */,
+				E6FA49C31A70138E0033E6E8 /* english-turkish.xml */,
+				E6FA49C41A70138E0033E6E8 /* Sozluk.swift */,
+				E66840541A70EBC100CFC678 /* CeviriSozluk.swift */,
+				E66840461A70DEB900CFC678 /* Kelime.swift */,
+				E668404A1A70DF6300CFC678 /* SozlukKelime.swift */,
+				E668404C1A70E02A00CFC678 /* KaynakKelime.swift */,
+				E66840481A70DF0300CFC678 /* Anlam.swift */,
+				E668404E1A70E0C600CFC678 /* Ceviri.swift */,
+				E66840501A70E18200CFC678 /* SozlukEkran.swift */,
+				E66840521A70E21200CFC678 /* CeviriEkran.swift */,
+				E6FA49C51A70138E0033E6E8 /* turkish-dictionary.xml */,
+				E6FA49A21A70132E0033E6E8 /* AppDelegate.swift */,
+				E6FA49A91A70132E0033E6E8 /* Images.xcassets */,
+				E6FA49AB1A70132E0033E6E8 /* LaunchScreen.xib */,
+				E6FA49A01A70132E0033E6E8 /* Supporting Files */,
+			);
+			path = Sozluk;
+			sourceTree = "<group>";
+		};
+		E6FA49A01A70132E0033E6E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6FA49A11A70132E0033E6E8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E6FA49B51A70132E0033E6E8 /* SozlukTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6FA49B81A70132E0033E6E8 /* SozlukTests.swift */,
+				E6FA49B61A70132E0033E6E8 /* Supporting Files */,
+			);
+			path = SozlukTests;
+			sourceTree = "<group>";
+		};
+		E6FA49B61A70132E0033E6E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6FA49B71A70132E0033E6E8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6FA499C1A70132E0033E6E8 /* Sozluk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6FA49BC1A70132E0033E6E8 /* Build configuration list for PBXNativeTarget "Sozluk" */;
+			buildPhases = (
+				E6FA49991A70132E0033E6E8 /* Sources */,
+				E6FA499A1A70132E0033E6E8 /* Frameworks */,
+				E6FA499B1A70132E0033E6E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sozluk;
+			productName = Sozluk;
+			productReference = E6FA499D1A70132E0033E6E8 /* Sozluk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6FA49B11A70132E0033E6E8 /* SozlukTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6FA49BF1A70132E0033E6E8 /* Build configuration list for PBXNativeTarget "SozlukTests" */;
+			buildPhases = (
+				E6FA49AE1A70132E0033E6E8 /* Sources */,
+				E6FA49AF1A70132E0033E6E8 /* Frameworks */,
+				E6FA49B01A70132E0033E6E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6FA49B41A70132E0033E6E8 /* PBXTargetDependency */,
+			);
+			name = SozlukTests;
+			productName = SozlukTests;
+			productReference = E6FA49B21A70132E0033E6E8 /* SozlukTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6FA49951A70132E0033E6E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Olcay Taner YILDIZ";
+				TargetAttributes = {
+					E6FA499C1A70132E0033E6E8 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 27STVA9DYE;
+						LastSwiftMigration = 0800;
+					};
+					E6FA49B11A70132E0033E6E8 = {
+						CreatedOnToolsVersion = 6.1.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = E6FA499C1A70132E0033E6E8;
+					};
+				};
+			};
+			buildConfigurationList = E6FA49981A70132E0033E6E8 /* Build configuration list for PBXProject "Sozluk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6FA49941A70132E0033E6E8;
+			productRefGroup = E6FA499E1A70132E0033E6E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6FA499C1A70132E0033E6E8 /* Sozluk */,
+				E6FA49B11A70132E0033E6E8 /* SozlukTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6FA499B1A70132E0033E6E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6FA49C91A70138E0033E6E8 /* turkish-dictionary.xml in Resources */,
+				E6FA49C61A70138E0033E6E8 /* AnaEkran.storyboard in Resources */,
+				E6FA49AD1A70132E0033E6E8 /* LaunchScreen.xib in Resources */,
+				E6FA49AA1A70132E0033E6E8 /* Images.xcassets in Resources */,
+				E6FA49C71A70138E0033E6E8 /* english-turkish.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6FA49B01A70132E0033E6E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6FA49991A70132E0033E6E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E66840471A70DEB900CFC678 /* Kelime.swift in Sources */,
+				E668404F1A70E0C600CFC678 /* Ceviri.swift in Sources */,
+				E6FA49A31A70132E0033E6E8 /* AppDelegate.swift in Sources */,
+				E668404B1A70DF6300CFC678 /* SozlukKelime.swift in Sources */,
+				E6FA49C81A70138E0033E6E8 /* Sozluk.swift in Sources */,
+				E66840551A70EBC100CFC678 /* CeviriSozluk.swift in Sources */,
+				E66840511A70E18200CFC678 /* SozlukEkran.swift in Sources */,
+				E66840491A70DF0300CFC678 /* Anlam.swift in Sources */,
+				E66840531A70E21200CFC678 /* CeviriEkran.swift in Sources */,
+				E668404D1A70E02A00CFC678 /* KaynakKelime.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6FA49AE1A70132E0033E6E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6FA49B91A70132E0033E6E8 /* SozlukTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6FA49B41A70132E0033E6E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6FA499C1A70132E0033E6E8 /* Sozluk */;
+			targetProxy = E6FA49B31A70132E0033E6E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6FA49AB1A70132E0033E6E8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6FA49AC1A70132E0033E6E8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6FA49BA1A70132E0033E6E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6FA49BB1A70132E0033E6E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6FA49BD1A70132E0033E6E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Sozluk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E6FA49BE1A70132E0033E6E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Sozluk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E6FA49C01A70132E0033E6E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SozlukTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sozluk.app/Sozluk";
+			};
+			name = Debug;
+		};
+		E6FA49C11A70132E0033E6E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SozlukTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sozluk.app/Sozluk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6FA49981A70132E0033E6E8 /* Build configuration list for PBXProject "Sozluk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6FA49BA1A70132E0033E6E8 /* Debug */,
+				E6FA49BB1A70132E0033E6E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6FA49BC1A70132E0033E6E8 /* Build configuration list for PBXNativeTarget "Sozluk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6FA49BD1A70132E0033E6E8 /* Debug */,
+				E6FA49BE1A70132E0033E6E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6FA49BF1A70132E0033E6E8 /* Build configuration list for PBXNativeTarget "SozlukTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6FA49C01A70132E0033E6E8 /* Debug */,
+				E6FA49C11A70132E0033E6E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6FA49951A70132E0033E6E8 /* Project object */;
+}

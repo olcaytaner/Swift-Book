@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="0cn-9y-iLU">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Ehliyet Sinavi-->
+        <scene sceneID="Rag-ea-5lt">
+            <objects>
+                <viewController id="0cn-9y-iLU" customClass="EhliyetSinavi" customModule="EhliyetSinavi" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="A2i-SB-XkA"/>
+                        <viewControllerLayoutGuide type="bottom" id="kaQ-c6-7wx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="adm-vq-PxU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rQK-Yc-HYC">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="CtR-c1-CKy">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="2" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Cevap1">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="cevapTikla:" destination="0cn-9y-iLU" eventType="touchUpInside" id="yy7-mt-vmS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Xkp-Tf-EiN">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="2" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Cevap2">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="cevapTikla:" destination="0cn-9y-iLU" eventType="touchUpInside" id="vha-hb-n2w"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="TSb-71-MAr">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="2" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Cevap3">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="cevapTikla:" destination="0cn-9y-iLU" eventType="touchUpInside" id="rnc-iI-qFD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ge7-uh-ZdO">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="2" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Cevap4">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="cevapTikla:" destination="0cn-9y-iLU" eventType="touchUpInside" id="8xg-Dl-psm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uHk-j9-rzZ">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Konular">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="UD6-S8-Koe" kind="modal" identifier="tercihSecimi" id="a9N-gh-ytT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bI7-KH-tdx">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Sınavı Yeniden Başlat">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="sinaviBaslatTikla:" destination="0cn-9y-iLU" eventType="touchUpInside" id="64H-7w-Esm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="rQK-Yc-HYC" firstAttribute="leading" secondItem="adm-vq-PxU" secondAttribute="leading" id="0TZ-AT-i1r"/>
+                            <constraint firstItem="rQK-Yc-HYC" firstAttribute="top" secondItem="adm-vq-PxU" secondAttribute="top" id="2BS-lq-60D"/>
+                            <constraint firstItem="CtR-c1-CKy" firstAttribute="trailing" secondItem="adm-vq-PxU" secondAttribute="trailing" id="5uD-0Z-81X"/>
+                            <constraint firstItem="uHk-j9-rzZ" firstAttribute="leading" secondItem="adm-vq-PxU" secondAttribute="leading" id="9Hd-UM-SQl"/>
+                            <constraint firstItem="Xkp-Tf-EiN" firstAttribute="trailing" secondItem="adm-vq-PxU" secondAttribute="trailing" id="D7y-To-lXa"/>
+                            <constraint firstItem="ge7-uh-ZdO" firstAttribute="trailing" secondItem="adm-vq-PxU" secondAttribute="trailing" id="IXr-Nl-B0C"/>
+                            <constraint firstItem="CtR-c1-CKy" firstAttribute="top" secondItem="rQK-Yc-HYC" secondAttribute="bottom" constant="8" symbolic="YES" id="Jm5-OP-Bh5"/>
+                            <constraint firstItem="TSb-71-MAr" firstAttribute="leading" secondItem="adm-vq-PxU" secondAttribute="leading" id="N6j-t4-VVN"/>
+                            <constraint firstItem="TSb-71-MAr" firstAttribute="top" secondItem="Xkp-Tf-EiN" secondAttribute="bottom" constant="8" symbolic="YES" id="OK7-lp-6bL"/>
+                            <constraint firstItem="TSb-71-MAr" firstAttribute="trailing" secondItem="adm-vq-PxU" secondAttribute="trailing" id="SWN-4w-0Ur"/>
+                            <constraint firstAttribute="bottom" secondItem="bI7-KH-tdx" secondAttribute="bottom" constant="20" symbolic="YES" id="UUy-NT-rOe"/>
+                            <constraint firstItem="ge7-uh-ZdO" firstAttribute="leading" secondItem="adm-vq-PxU" secondAttribute="leading" id="V4G-E1-1gq"/>
+                            <constraint firstItem="uHk-j9-rzZ" firstAttribute="trailing" secondItem="adm-vq-PxU" secondAttribute="trailing" id="bsR-yO-E6Q"/>
+                            <constraint firstItem="Xkp-Tf-EiN" firstAttribute="top" secondItem="CtR-c1-CKy" secondAttribute="bottom" constant="8" symbolic="YES" id="c1Q-0U-EKh"/>
+                            <constraint firstItem="ge7-uh-ZdO" firstAttribute="top" secondItem="TSb-71-MAr" secondAttribute="bottom" constant="8" symbolic="YES" id="f7J-Yz-vsW"/>
+                            <constraint firstItem="bI7-KH-tdx" firstAttribute="trailing" secondItem="adm-vq-PxU" secondAttribute="trailing" id="g2C-Sl-5hP"/>
+                            <constraint firstItem="bI7-KH-tdx" firstAttribute="leading" secondItem="adm-vq-PxU" secondAttribute="leading" id="h1A-nU-c0i"/>
+                            <constraint firstItem="bI7-KH-tdx" firstAttribute="top" secondItem="uHk-j9-rzZ" secondAttribute="bottom" constant="8" symbolic="YES" id="h40-yD-FgZ"/>
+                            <constraint firstItem="CtR-c1-CKy" firstAttribute="leading" secondItem="adm-vq-PxU" secondAttribute="leading" id="izp-JO-1zM"/>
+                            <constraint firstItem="Xkp-Tf-EiN" firstAttribute="leading" secondItem="adm-vq-PxU" secondAttribute="leading" id="pYS-2E-HhN"/>
+                            <constraint firstItem="rQK-Yc-HYC" firstAttribute="trailing" secondItem="adm-vq-PxU" secondAttribute="trailing" id="raH-PL-9Zs"/>
+                            <constraint firstItem="CtR-c1-CKy" firstAttribute="top" secondItem="adm-vq-PxU" secondAttribute="top" constant="85" id="yzJ-oK-3tW"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="ikD-rJ-iE0"/>
+                    <connections>
+                        <outlet property="cevap1" destination="CtR-c1-CKy" id="frn-Xw-CQt"/>
+                        <outlet property="cevap2" destination="Xkp-Tf-EiN" id="Zvk-lO-hfU"/>
+                        <outlet property="cevap3" destination="TSb-71-MAr" id="hC8-yf-zZY"/>
+                        <outlet property="cevap4" destination="ge7-uh-ZdO" id="6ve-CN-Ehd"/>
+                        <outlet property="soru" destination="rQK-Yc-HYC" id="BQ9-JK-JK4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gtD-hn-aqm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="462" y="-813"/>
+        </scene>
+        <!--Konular-->
+        <scene sceneID="u5O-ah-7QI">
+            <objects>
+                <viewController id="UD6-S8-Koe" customClass="Konular" customModule="EhliyetSinavi" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1TV-Ib-YOa"/>
+                        <viewControllerLayoutGuide type="bottom" id="7D8-9m-hII"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OaF-hC-Bze">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <switch opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3zA-5r-tXQ">
+                                <accessibility key="accessibilityConfiguration" label=""/>
+                                <connections>
+                                    <action selector="konuTikla:" destination="UD6-S8-Koe" eventType="valueChanged" id="gJQ-iB-mr8"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Trafik" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iMW-zy-h8U">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="vMs-pB-H5G"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EeG-rk-KMT">
+                                <accessibility key="accessibilityConfiguration" label=""/>
+                                <connections>
+                                    <action selector="konuTikla:" destination="UD6-S8-Koe" eventType="valueChanged" id="1d9-U9-LQe"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Motor" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uae-Kg-mBa">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DJ3-ZM-DNN">
+                                <accessibility key="accessibilityConfiguration" label=""/>
+                                <connections>
+                                    <action selector="konuTikla:" destination="UD6-S8-Koe" eventType="valueChanged" id="W1h-fO-xXE"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="İlk Yardım" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MBw-lE-JwA">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="86" id="4ea-xg-Eej"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jiv-e0-4uw">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Sınavı Yeniden Başlat">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Jdv-RE-1xD" kind="unwind" identifier="sinaviYenidenBaslat" unwindAction="unwindToEhliyetSinavi:" id="iDd-zz-5FF"/>
+                                </connections>
+                            </button>
+                            <stepper opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="10" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="BvD-LM-hhO">
+                                <connections>
+                                    <action selector="konuDegerDegistir:" destination="UD6-S8-Koe" eventType="valueChanged" id="0pS-1O-kNf"/>
+                                </connections>
+                            </stepper>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zeH-y5-HbM">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="38" id="f2P-F8-BTY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stepper opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="10" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="n4G-fr-H1E">
+                                <connections>
+                                    <action selector="konuDegerDegistir:" destination="UD6-S8-Koe" eventType="valueChanged" id="oyK-wb-FH6"/>
+                                </connections>
+                            </stepper>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s7M-db-wcy">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stepper opaque="NO" clipsSubviews="YES" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="10" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="AW8-Fj-JPh">
+                                <connections>
+                                    <action selector="konuDegerDegistir:" destination="UD6-S8-Koe" eventType="valueChanged" id="MpZ-qr-m9x"/>
+                                </connections>
+                            </stepper>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U8p-aC-wtB">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RKx-wf-7i8">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Sınava Geri Dön">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Jdv-RE-1xD" kind="unwind" identifier="sinavaGeriDon" unwindAction="unwindToEhliyetSinavi:" id="qCe-Zu-2Kv"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="DJ3-ZM-DNN" firstAttribute="top" secondItem="EeG-rk-KMT" secondAttribute="bottom" constant="8" symbolic="YES" id="1Ku-Hh-RJM"/>
+                            <constraint firstItem="jiv-e0-4uw" firstAttribute="trailing" secondItem="OaF-hC-Bze" secondAttribute="trailing" id="2US-iE-9kL"/>
+                            <constraint firstItem="iMW-zy-h8U" firstAttribute="trailing" secondItem="uae-Kg-mBa" secondAttribute="trailing" id="5SP-6m-aYW"/>
+                            <constraint firstItem="jiv-e0-4uw" firstAttribute="leading" secondItem="OaF-hC-Bze" secondAttribute="leading" id="6T4-cI-Dis"/>
+                            <constraint firstItem="EeG-rk-KMT" firstAttribute="top" secondItem="3zA-5r-tXQ" secondAttribute="bottom" constant="8" symbolic="YES" id="6Yv-M0-Hgr"/>
+                            <constraint firstItem="3zA-5r-tXQ" firstAttribute="top" secondItem="BvD-LM-hhO" secondAttribute="top" id="A5n-GJ-ZZD"/>
+                            <constraint firstItem="s7M-db-wcy" firstAttribute="leading" secondItem="zeH-y5-HbM" secondAttribute="leading" id="Cum-XS-TfU"/>
+                            <constraint firstItem="AW8-Fj-JPh" firstAttribute="leading" secondItem="n4G-fr-H1E" secondAttribute="leading" id="DHD-rv-EP3"/>
+                            <constraint firstItem="iMW-zy-h8U" firstAttribute="leading" secondItem="OaF-hC-Bze" secondAttribute="leading" constant="1" id="Dof-tY-juT"/>
+                            <constraint firstItem="DJ3-ZM-DNN" firstAttribute="leading" secondItem="EeG-rk-KMT" secondAttribute="leading" id="EcX-2f-DDM"/>
+                            <constraint firstItem="zeH-y5-HbM" firstAttribute="baseline" secondItem="iMW-zy-h8U" secondAttribute="baseline" id="GCx-rC-JIV"/>
+                            <constraint firstAttribute="trailing" secondItem="BvD-LM-hhO" secondAttribute="trailing" constant="56" id="KTn-2o-ZFU"/>
+                            <constraint firstItem="iMW-zy-h8U" firstAttribute="top" secondItem="OaF-hC-Bze" secondAttribute="top" constant="20" symbolic="YES" id="LrC-PH-tXs"/>
+                            <constraint firstItem="RKx-wf-7i8" firstAttribute="leading" secondItem="OaF-hC-Bze" secondAttribute="leading" id="NQ9-dF-NDo"/>
+                            <constraint firstItem="s7M-db-wcy" firstAttribute="centerY" secondItem="n4G-fr-H1E" secondAttribute="centerY" id="OVf-vK-A5L"/>
+                            <constraint firstItem="MBw-lE-JwA" firstAttribute="baseline" secondItem="U8p-aC-wtB" secondAttribute="baseline" id="QEP-Ov-Kxe"/>
+                            <constraint firstItem="MBw-lE-JwA" firstAttribute="leading" secondItem="uae-Kg-mBa" secondAttribute="leading" id="QNS-wM-B9l"/>
+                            <constraint firstItem="U8p-aC-wtB" firstAttribute="trailing" secondItem="s7M-db-wcy" secondAttribute="trailing" id="Rt3-oj-Cu7"/>
+                            <constraint firstItem="U8p-aC-wtB" firstAttribute="centerY" secondItem="AW8-Fj-JPh" secondAttribute="centerY" id="Y8r-Z5-hBs"/>
+                            <constraint firstItem="s7M-db-wcy" firstAttribute="trailing" secondItem="zeH-y5-HbM" secondAttribute="trailing" id="bRn-Nq-MrR"/>
+                            <constraint firstItem="jiv-e0-4uw" firstAttribute="top" secondItem="OaF-hC-Bze" secondAttribute="top" constant="149" id="bS5-bc-Otn"/>
+                            <constraint firstItem="RKx-wf-7i8" firstAttribute="trailing" secondItem="OaF-hC-Bze" secondAttribute="trailing" id="cnR-EN-44h"/>
+                            <constraint firstItem="RKx-wf-7i8" firstAttribute="top" secondItem="OaF-hC-Bze" secondAttribute="top" constant="214" id="gij-rO-T09"/>
+                            <constraint firstItem="EeG-rk-KMT" firstAttribute="leading" secondItem="3zA-5r-tXQ" secondAttribute="leading" id="meY-Ke-cab"/>
+                            <constraint firstAttribute="trailing" secondItem="zeH-y5-HbM" secondAttribute="trailing" constant="13" id="pBE-cX-nnw"/>
+                            <constraint firstItem="EeG-rk-KMT" firstAttribute="top" secondItem="n4G-fr-H1E" secondAttribute="top" id="pKR-ja-aFL"/>
+                            <constraint firstItem="uae-Kg-mBa" firstAttribute="baseline" secondItem="s7M-db-wcy" secondAttribute="baseline" id="u2p-le-4as"/>
+                            <constraint firstItem="iMW-zy-h8U" firstAttribute="leading" secondItem="uae-Kg-mBa" secondAttribute="leading" id="uc0-S8-cGH"/>
+                            <constraint firstItem="U8p-aC-wtB" firstAttribute="leading" secondItem="s7M-db-wcy" secondAttribute="leading" id="w45-4G-co7"/>
+                            <constraint firstItem="DJ3-ZM-DNN" firstAttribute="top" secondItem="AW8-Fj-JPh" secondAttribute="top" id="waN-4B-oIe"/>
+                            <constraint firstItem="n4G-fr-H1E" firstAttribute="leading" secondItem="BvD-LM-hhO" secondAttribute="leading" id="x3p-Zg-vFz"/>
+                            <constraint firstItem="3zA-5r-tXQ" firstAttribute="leading" secondItem="OaF-hC-Bze" secondAttribute="leading" constant="84" id="x5O-Mk-AGD"/>
+                            <constraint firstItem="zeH-y5-HbM" firstAttribute="centerY" secondItem="BvD-LM-hhO" secondAttribute="centerY" id="xPB-GH-FEx"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="ilkYardim" destination="DJ3-ZM-DNN" id="RBG-e9-ZNC"/>
+                        <outlet property="ilkYardimGosterge" destination="AW8-Fj-JPh" id="SfU-sf-cAQ"/>
+                        <outlet property="ilkYardimSayac" destination="U8p-aC-wtB" id="rvE-jE-yZw"/>
+                        <outlet property="motor" destination="EeG-rk-KMT" id="h6m-1Q-1U6"/>
+                        <outlet property="motorGosterge" destination="n4G-fr-H1E" id="yj5-e9-uPM"/>
+                        <outlet property="motorSayac" destination="s7M-db-wcy" id="eaX-Lw-MVN"/>
+                        <outlet property="trafik" destination="3zA-5r-tXQ" id="uIw-5R-vdj"/>
+                        <outlet property="trafikGosterge" destination="BvD-LM-hhO" id="6MK-gd-Ii7"/>
+                        <outlet property="trafikSayac" destination="zeH-y5-HbM" id="t2X-4B-s2C"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K8U-zm-k4I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Jdv-RE-1xD" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="895" y="-813"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>

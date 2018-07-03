@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="yBX-Ni-4mf">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--Hesap Makinesi-->
+        <scene sceneID="at9-2W-wTh">
+            <objects>
+                <viewController modalPresentationStyle="currentContext" id="yBX-Ni-4mf" customClass="HesapMakinesi" customModule="HesapMakinesi" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ijj-cj-4vk"/>
+                        <viewControllerLayoutGuide type="bottom" id="hRU-Mv-7ZL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HbV-j0-OGf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1N0-Op-pD7">
+                                <rect key="frame" x="0.0" y="30" width="64" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="1">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Dugme1Tikla:" destination="yBX-Ni-4mf" eventType="touchUpInside" id="d8g-Tt-lGu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hdz-Lf-0xe">
+                                <rect key="frame" x="64" y="30" width="64" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="64" id="2W7-Fh-pmM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="2">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Dugme2Tikla:" destination="yBX-Ni-4mf" eventType="touchUpInside" id="j21-lp-gY6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tEE-ek-hsr">
+                                <rect key="frame" x="128" y="30" width="64" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="64" id="xIU-LG-YSB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="3">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Dugme3Tikla:" destination="yBX-Ni-4mf" eventType="touchUpInside" id="iwW-p4-E37"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oF5-QM-4hY">
+                                <rect key="frame" x="192" y="30" width="64" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="64" id="2mQ-31-2ib"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="+">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="DugmeArtiTikla:" destination="yBX-Ni-4mf" eventType="touchUpInside" id="wsS-JA-b3c"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2wi-Pp-yge">
+                                <rect key="frame" x="256" y="30" width="64" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="64" id="bZd-fe-Uft"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="M+">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="DugmeHafizayaEkleTikla:" destination="yBX-Ni-4mf" eventType="touchUpInside" id="tSd-Er-N3z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oRq-dG-yyN">
+                                <rect key="frame" x="0.0" y="73" width="64" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="4">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Dugme4Tikla:" destination="yBX-Ni-4mf" eventType="touchUpInside" id="iPd-7I-2Cq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Jn-1s-rdy">
+                                <rect key="frame" x="64" y="73" width="64" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="5">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Dugme5Tikla:" destination="yBX-Ni-4mf" eventType="touchUpInside" id="YVX-Zv-9LL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="km8-a0-nEc">
+                                <rect key="frame" x="128" y="73" width="64" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="6">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Dugme6Tikla:" destination="yBX-Ni-4mf" eventType="touchUpInside" id="hjO-mr-NUn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0G0-9J-rLw">
+                                <rect key="frame" x="192" y="73" width="64" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="-">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="DugmeEksiTikla:" destination="yBX-Ni-4mf" eventType="touchUpInside" id="7Z7-Eo-AYw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oce-Cu-wyr">
+                                <rect key="frame" x="256" y="73" width="64" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="M-">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="DugmeHafizadanCikarTikla:" destination="yBX-Ni-4mf" eventType="touchUpInside" id="ZJc-MF-PSP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nGL-rV-PyI">
+                                <rect key="frame" x="0.0" y="116" width="64" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="64" id="ggd-Vm-J9K"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="7">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Dugme7Tikla:" destination="yBX-Ni-4mf" eventType="touchUpInside" id="H3H-Ej-MBk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ing-ov-phd">
+                                <rect key="frame" x="64" y="116" width="64" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="8">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Dugme8Tikla:" destination="yBX-Ni-4mf" eventType="touchUpInside" id="Lmh-AM-hba"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aNJ-R5-iFt">
+                                <rect key="frame" x="128" y="116" width="64" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="9">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Dugme9Tikla:" destination="yBX-Ni-4mf" eventType="touchUpInside" id="LVS-Fe-jMX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IhB-Zx-Rcf">
+                                <rect key="frame" x="192" y="116" width="64" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="x">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="DugmeCarpiTikla:" destination="yBX-Ni-4mf" eventType="touchUpInside" id="fnb-k8-NLl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BcR-gx-Six">
+                                <rect key="frame" x="256" y="116" width="64" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="MR">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="DugmeHafizayiGosterTikla:" destination="yBX-Ni-4mf" eventType="touchUpInside" id="2ck-eg-AjS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M2b-T3-ZwK">
+                                <rect key="frame" x="0.0" y="159" width="64" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="0">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Dugme0Tikla:" destination="yBX-Ni-4mf" eventType="touchUpInside" id="QSi-Nd-crx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gwu-VN-0ko">
+                                <rect key="frame" x="64" y="159" width="64" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="C">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="DugmeSilTikla:" destination="yBX-Ni-4mf" eventType="touchUpInside" id="8RP-fA-IDO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CqJ-aH-3fv">
+                                <rect key="frame" x="128" y="159" width="64" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="=">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="DugmeEsitTikla:" destination="yBX-Ni-4mf" eventType="touchUpInside" id="ClZ-xf-cQT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uKW-UN-GB3">
+                                <rect key="frame" x="192" y="159" width="64" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="/">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="DugmeBoluTikla:" destination="yBX-Ni-4mf" eventType="touchUpInside" id="k5F-Au-YJ5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bXv-Dl-7I0">
+                                <rect key="frame" x="256" y="159" width="64" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="MC">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="DugmeHafizayiSilTikla:" destination="yBX-Ni-4mf" eventType="touchUpInside" id="Gea-xo-lgN"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pkf-YO-QJT">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="uKW-UN-GB3" firstAttribute="trailing" secondItem="IhB-Zx-Rcf" secondAttribute="trailing" id="2Ps-ta-YIC"/>
+                            <constraint firstItem="IhB-Zx-Rcf" firstAttribute="trailing" secondItem="0G0-9J-rLw" secondAttribute="trailing" id="2f2-4c-bTL"/>
+                            <constraint firstItem="Pkf-YO-QJT" firstAttribute="leading" secondItem="1N0-Op-pD7" secondAttribute="leading" id="4Ca-ga-jh5"/>
+                            <constraint firstItem="oce-Cu-wyr" firstAttribute="trailing" secondItem="HbV-j0-OGf" secondAttribute="trailing" id="4JG-lo-nnk"/>
+                            <constraint firstItem="CqJ-aH-3fv" firstAttribute="trailing" secondItem="aNJ-R5-iFt" secondAttribute="trailing" id="6M0-Ch-OhH"/>
+                            <constraint firstItem="0Jn-1s-rdy" firstAttribute="trailing" secondItem="Hdz-Lf-0xe" secondAttribute="trailing" id="6aw-e1-ssA"/>
+                            <constraint firstItem="Ing-ov-phd" firstAttribute="leading" secondItem="0Jn-1s-rdy" secondAttribute="leading" id="7Dq-Pm-foy"/>
+                            <constraint firstItem="CqJ-aH-3fv" firstAttribute="baseline" secondItem="gwu-VN-0ko" secondAttribute="baseline" id="8Vr-5q-OTe"/>
+                            <constraint firstItem="km8-a0-nEc" firstAttribute="baseline" secondItem="0G0-9J-rLw" secondAttribute="baseline" id="9UV-8d-pZ4"/>
+                            <constraint firstItem="oRq-dG-yyN" firstAttribute="top" secondItem="HbV-j0-OGf" secondAttribute="top" constant="73" id="9cg-o8-5K3"/>
+                            <constraint firstItem="gwu-VN-0ko" firstAttribute="trailing" secondItem="Ing-ov-phd" secondAttribute="trailing" id="AGW-Gl-J4F"/>
+                            <constraint firstItem="0G0-9J-rLw" firstAttribute="trailing" secondItem="oF5-QM-4hY" secondAttribute="trailing" id="BPq-b7-oSC"/>
+                            <constraint firstItem="aNJ-R5-iFt" firstAttribute="leading" secondItem="km8-a0-nEc" secondAttribute="leading" id="Bio-D4-G9Z"/>
+                            <constraint firstItem="uKW-UN-GB3" firstAttribute="baseline" secondItem="CqJ-aH-3fv" secondAttribute="baseline" id="Fqp-1J-qZz"/>
+                            <constraint firstItem="M2b-T3-ZwK" firstAttribute="baseline" secondItem="gwu-VN-0ko" secondAttribute="baseline" id="GcY-3A-zar"/>
+                            <constraint firstItem="Pkf-YO-QJT" firstAttribute="top" secondItem="HbV-j0-OGf" secondAttribute="top" id="H7h-UL-76P"/>
+                            <constraint firstItem="0Jn-1s-rdy" firstAttribute="baseline" secondItem="km8-a0-nEc" secondAttribute="baseline" id="HLp-jR-3Pf"/>
+                            <constraint firstItem="0Jn-1s-rdy" firstAttribute="leading" secondItem="Hdz-Lf-0xe" secondAttribute="leading" id="I08-Iy-a7v"/>
+                            <constraint firstItem="uKW-UN-GB3" firstAttribute="baseline" secondItem="bXv-Dl-7I0" secondAttribute="baseline" id="JyQ-Mg-O5p"/>
+                            <constraint firstItem="Pkf-YO-QJT" firstAttribute="leading" secondItem="M2b-T3-ZwK" secondAttribute="leading" id="Kj8-5N-b2c"/>
+                            <constraint firstAttribute="trailing" secondItem="oF5-QM-4hY" secondAttribute="trailing" constant="64" id="Kp9-9b-QhX"/>
+                            <constraint firstItem="BcR-gx-Six" firstAttribute="leading" secondItem="oce-Cu-wyr" secondAttribute="leading" id="Lac-gv-Mme"/>
+                            <constraint firstItem="oF5-QM-4hY" firstAttribute="baseline" secondItem="2wi-Pp-yge" secondAttribute="baseline" id="Lke-7L-VWa"/>
+                            <constraint firstItem="Pkf-YO-QJT" firstAttribute="leading" secondItem="nGL-rV-PyI" secondAttribute="leading" id="Lzq-3s-W5F"/>
+                            <constraint firstItem="oce-Cu-wyr" firstAttribute="leading" secondItem="2wi-Pp-yge" secondAttribute="leading" id="MGM-xw-Ofo"/>
+                            <constraint firstItem="1N0-Op-pD7" firstAttribute="leading" secondItem="HbV-j0-OGf" secondAttribute="leading" id="MXb-Rk-gHY"/>
+                            <constraint firstItem="IhB-Zx-Rcf" firstAttribute="baseline" secondItem="aNJ-R5-iFt" secondAttribute="baseline" id="PXR-jE-JfZ"/>
+                            <constraint firstItem="1N0-Op-pD7" firstAttribute="top" secondItem="HbV-j0-OGf" secondAttribute="top" constant="30" id="Q4a-5o-lBY"/>
+                            <constraint firstItem="nGL-rV-PyI" firstAttribute="top" secondItem="HbV-j0-OGf" secondAttribute="top" constant="116" id="Q6k-Fj-PqS"/>
+                            <constraint firstItem="tEE-ek-hsr" firstAttribute="baseline" secondItem="Hdz-Lf-0xe" secondAttribute="baseline" id="Rhe-qd-6gd"/>
+                            <constraint firstItem="bXv-Dl-7I0" firstAttribute="leading" secondItem="BcR-gx-Six" secondAttribute="leading" id="WwU-yF-6G0"/>
+                            <constraint firstItem="Ing-ov-phd" firstAttribute="baseline" secondItem="nGL-rV-PyI" secondAttribute="baseline" id="cfs-du-HGG"/>
+                            <constraint firstItem="CqJ-aH-3fv" firstAttribute="leading" secondItem="aNJ-R5-iFt" secondAttribute="leading" id="dKG-rk-K7w"/>
+                            <constraint firstItem="gwu-VN-0ko" firstAttribute="leading" secondItem="Ing-ov-phd" secondAttribute="leading" id="dNx-su-RL7"/>
+                            <constraint firstItem="0G0-9J-rLw" firstAttribute="leading" secondItem="oF5-QM-4hY" secondAttribute="leading" id="e0R-qP-T1l"/>
+                            <constraint firstItem="uKW-UN-GB3" firstAttribute="leading" secondItem="IhB-Zx-Rcf" secondAttribute="leading" id="eBk-Zu-oOB"/>
+                            <constraint firstItem="tEE-ek-hsr" firstAttribute="centerX" secondItem="Pkf-YO-QJT" secondAttribute="centerX" id="eGb-PE-zWH"/>
+                            <constraint firstItem="nGL-rV-PyI" firstAttribute="trailing" secondItem="oRq-dG-yyN" secondAttribute="trailing" id="ejd-Ti-EEQ"/>
+                            <constraint firstItem="Hdz-Lf-0xe" firstAttribute="leading" secondItem="HbV-j0-OGf" secondAttribute="leading" constant="64" id="fHJ-pK-Bwt"/>
+                            <constraint firstItem="M2b-T3-ZwK" firstAttribute="trailing" secondItem="nGL-rV-PyI" secondAttribute="trailing" id="few-Ge-PN3"/>
+                            <constraint firstItem="BcR-gx-Six" firstAttribute="baseline" secondItem="IhB-Zx-Rcf" secondAttribute="baseline" id="hMu-IC-k43"/>
+                            <constraint firstItem="Pkf-YO-QJT" firstAttribute="trailing" secondItem="2wi-Pp-yge" secondAttribute="trailing" id="ki5-Fb-iUR"/>
+                            <constraint firstItem="M2b-T3-ZwK" firstAttribute="top" secondItem="HbV-j0-OGf" secondAttribute="top" constant="159" id="mnN-GZ-1Nf"/>
+                            <constraint firstItem="Pkf-YO-QJT" firstAttribute="trailing" secondItem="oce-Cu-wyr" secondAttribute="trailing" id="n2I-gV-z62"/>
+                            <constraint firstItem="tEE-ek-hsr" firstAttribute="baseline" secondItem="oF5-QM-4hY" secondAttribute="baseline" id="nNC-Mz-Elh"/>
+                            <constraint firstItem="Pkf-YO-QJT" firstAttribute="trailing" secondItem="BcR-gx-Six" secondAttribute="trailing" id="o65-rA-o3G"/>
+                            <constraint firstItem="oRq-dG-yyN" firstAttribute="trailing" secondItem="1N0-Op-pD7" secondAttribute="trailing" id="osd-nd-ePy"/>
+                            <constraint firstItem="aNJ-R5-iFt" firstAttribute="trailing" secondItem="km8-a0-nEc" secondAttribute="trailing" id="rZm-bM-ZN8"/>
+                            <constraint firstItem="Hdz-Lf-0xe" firstAttribute="baseline" secondItem="1N0-Op-pD7" secondAttribute="baseline" id="raL-mR-Ign"/>
+                            <constraint firstItem="IhB-Zx-Rcf" firstAttribute="leading" secondItem="0G0-9J-rLw" secondAttribute="leading" id="sz0-zM-5l7"/>
+                            <constraint firstItem="km8-a0-nEc" firstAttribute="trailing" secondItem="tEE-ek-hsr" secondAttribute="trailing" id="tnf-pX-s5N"/>
+                            <constraint firstItem="oRq-dG-yyN" firstAttribute="baseline" secondItem="0Jn-1s-rdy" secondAttribute="baseline" id="ucP-c5-c64"/>
+                            <constraint firstItem="Pkf-YO-QJT" firstAttribute="trailing" secondItem="bXv-Dl-7I0" secondAttribute="trailing" id="un1-B1-ze1"/>
+                            <constraint firstItem="oce-Cu-wyr" firstAttribute="baseline" secondItem="0G0-9J-rLw" secondAttribute="baseline" id="v6T-Kf-Ylo"/>
+                            <constraint firstItem="km8-a0-nEc" firstAttribute="leading" secondItem="tEE-ek-hsr" secondAttribute="leading" id="wUr-G1-tEv"/>
+                            <constraint firstItem="Ing-ov-phd" firstAttribute="trailing" secondItem="0Jn-1s-rdy" secondAttribute="trailing" id="xlN-bJ-Hjm"/>
+                            <constraint firstItem="aNJ-R5-iFt" firstAttribute="baseline" secondItem="Ing-ov-phd" secondAttribute="baseline" id="yQ4-Cx-fzv"/>
+                            <constraint firstItem="Pkf-YO-QJT" firstAttribute="leading" secondItem="oRq-dG-yyN" secondAttribute="leading" id="yxe-y5-dHb"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="sonuc" destination="Pkf-YO-QJT" id="fEH-5Q-yIE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7xF-0Q-3gN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="153" y="8"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

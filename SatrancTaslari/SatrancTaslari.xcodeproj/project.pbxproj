@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E655E5D11A6C391E00FD7FAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E655E5D01A6C391E00FD7FAC /* AppDelegate.swift */; };
+		E655E5D31A6C391E00FD7FAC /* SatrancTaslari.swift in Sources */ = {isa = PBXBuildFile; fileRef = E655E5D21A6C391E00FD7FAC /* SatrancTaslari.swift */; };
+		E655E5D81A6C391E00FD7FAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E655E5D71A6C391E00FD7FAC /* Images.xcassets */; };
+		E655E5DB1A6C391E00FD7FAC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E655E5D91A6C391E00FD7FAC /* LaunchScreen.xib */; };
+		E655E5E71A6C391E00FD7FAC /* SatrancTaslariTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E655E5E61A6C391E00FD7FAC /* SatrancTaslariTests.swift */; };
+		E655E5F11A6C396800FD7FAC /* AnaEkran.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E655E5F01A6C396800FD7FAC /* AnaEkran.storyboard */; };
+		E655E6021A6C39CE00FD7FAC /* bulmacalar.txt in Resources */ = {isa = PBXBuildFile; fileRef = E655E5F21A6C39CE00FD7FAC /* bulmacalar.txt */; };
+		E655E6031A6C39CE00FD7FAC /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = E655E5F41A6C39CE00FD7FAC /* 0.png */; };
+		E655E6041A6C39CE00FD7FAC /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E655E5F51A6C39CE00FD7FAC /* 1.png */; };
+		E655E6051A6C39CE00FD7FAC /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = E655E5F61A6C39CE00FD7FAC /* 2.png */; };
+		E655E6061A6C39CE00FD7FAC /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = E655E5F71A6C39CE00FD7FAC /* 3.png */; };
+		E655E6071A6C39CE00FD7FAC /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = E655E5F81A6C39CE00FD7FAC /* 4.png */; };
+		E655E6081A6C39CE00FD7FAC /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = E655E5F91A6C39CE00FD7FAC /* 5.png */; };
+		E655E6091A6C39CE00FD7FAC /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = E655E5FA1A6C39CE00FD7FAC /* 6.png */; };
+		E655E60A1A6C39CE00FD7FAC /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = E655E5FB1A6C39CE00FD7FAC /* 7.png */; };
+		E655E60B1A6C39CE00FD7FAC /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = E655E5FC1A6C39CE00FD7FAC /* 8.png */; };
+		E655E60C1A6C39CE00FD7FAC /* at.png in Resources */ = {isa = PBXBuildFile; fileRef = E655E5FD1A6C39CE00FD7FAC /* at.png */; };
+		E655E60D1A6C39CE00FD7FAC /* fil.png in Resources */ = {isa = PBXBuildFile; fileRef = E655E5FE1A6C39CE00FD7FAC /* fil.png */; };
+		E655E60E1A6C39CE00FD7FAC /* kale.png in Resources */ = {isa = PBXBuildFile; fileRef = E655E5FF1A6C39CE00FD7FAC /* kale.png */; };
+		E655E60F1A6C39CE00FD7FAC /* sah.png in Resources */ = {isa = PBXBuildFile; fileRef = E655E6001A6C39CE00FD7FAC /* sah.png */; };
+		E655E6101A6C39CE00FD7FAC /* vezir.png in Resources */ = {isa = PBXBuildFile; fileRef = E655E6011A6C39CE00FD7FAC /* vezir.png */; };
+		E655E6121A6C3A3600FD7FAC /* Tas.swift in Sources */ = {isa = PBXBuildFile; fileRef = E655E6111A6C3A3600FD7FAC /* Tas.swift */; };
+		E655E6141A6C3A8100FD7FAC /* Kare.swift in Sources */ = {isa = PBXBuildFile; fileRef = E655E6131A6C3A8100FD7FAC /* Kare.swift */; };
+		E655E6161A6C3ACA00FD7FAC /* Tehdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E655E6151A6C3ACA00FD7FAC /* Tehdit.swift */; };
+		E655E6181A6C3B3000FD7FAC /* Cozum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E655E6171A6C3B3000FD7FAC /* Cozum.swift */; };
+		E655E61A1A6C3DF800FD7FAC /* Bulmaca.swift in Sources */ = {isa = PBXBuildFile; fileRef = E655E6191A6C3DF800FD7FAC /* Bulmaca.swift */; };
+		E655E61C1A6C437C00FD7FAC /* Ekran.swift in Sources */ = {isa = PBXBuildFile; fileRef = E655E61B1A6C437C00FD7FAC /* Ekran.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E655E5E11A6C391E00FD7FAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E655E5C31A6C391E00FD7FAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E655E5CA1A6C391E00FD7FAC;
+			remoteInfo = SatrancTaslari;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E655E5CB1A6C391E00FD7FAC /* SatrancTaslari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SatrancTaslari.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E655E5CF1A6C391E00FD7FAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E655E5D01A6C391E00FD7FAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E655E5D21A6C391E00FD7FAC /* SatrancTaslari.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatrancTaslari.swift; sourceTree = "<group>"; };
+		E655E5D71A6C391E00FD7FAC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E655E5DA1A6C391E00FD7FAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E655E5E01A6C391E00FD7FAC /* SatrancTaslariTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SatrancTaslariTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E655E5E51A6C391E00FD7FAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E655E5E61A6C391E00FD7FAC /* SatrancTaslariTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatrancTaslariTests.swift; sourceTree = "<group>"; };
+		E655E5F01A6C396800FD7FAC /* AnaEkran.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AnaEkran.storyboard; sourceTree = "<group>"; };
+		E655E5F21A6C39CE00FD7FAC /* bulmacalar.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bulmacalar.txt; sourceTree = "<group>"; };
+		E655E5F41A6C39CE00FD7FAC /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		E655E5F51A6C39CE00FD7FAC /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		E655E5F61A6C39CE00FD7FAC /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		E655E5F71A6C39CE00FD7FAC /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		E655E5F81A6C39CE00FD7FAC /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		E655E5F91A6C39CE00FD7FAC /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		E655E5FA1A6C39CE00FD7FAC /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		E655E5FB1A6C39CE00FD7FAC /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		E655E5FC1A6C39CE00FD7FAC /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		E655E5FD1A6C39CE00FD7FAC /* at.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = at.png; sourceTree = "<group>"; };
+		E655E5FE1A6C39CE00FD7FAC /* fil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fil.png; sourceTree = "<group>"; };
+		E655E5FF1A6C39CE00FD7FAC /* kale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kale.png; sourceTree = "<group>"; };
+		E655E6001A6C39CE00FD7FAC /* sah.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sah.png; sourceTree = "<group>"; };
+		E655E6011A6C39CE00FD7FAC /* vezir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vezir.png; sourceTree = "<group>"; };
+		E655E6111A6C3A3600FD7FAC /* Tas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tas.swift; sourceTree = "<group>"; };
+		E655E6131A6C3A8100FD7FAC /* Kare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kare.swift; sourceTree = "<group>"; };
+		E655E6151A6C3ACA00FD7FAC /* Tehdit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tehdit.swift; sourceTree = "<group>"; };
+		E655E6171A6C3B3000FD7FAC /* Cozum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cozum.swift; sourceTree = "<group>"; };
+		E655E6191A6C3DF800FD7FAC /* Bulmaca.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bulmaca.swift; sourceTree = "<group>"; };
+		E655E61B1A6C437C00FD7FAC /* Ekran.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ekran.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E655E5C81A6C391E00FD7FAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E655E5DD1A6C391E00FD7FAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E655E5C21A6C391E00FD7FAC = {
+			isa = PBXGroup;
+			children = (
+				E655E5CD1A6C391E00FD7FAC /* SatrancTaslari */,
+				E655E5E31A6C391E00FD7FAC /* SatrancTaslariTests */,
+				E655E5CC1A6C391E00FD7FAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E655E5CC1A6C391E00FD7FAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E655E5CB1A6C391E00FD7FAC /* SatrancTaslari.app */,
+				E655E5E01A6C391E00FD7FAC /* SatrancTaslariTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E655E5CD1A6C391E00FD7FAC /* SatrancTaslari */ = {
+			isa = PBXGroup;
+			children = (
+				E655E5F21A6C39CE00FD7FAC /* bulmacalar.txt */,
+				E655E5F01A6C396800FD7FAC /* AnaEkran.storyboard */,
+				E655E5D01A6C391E00FD7FAC /* AppDelegate.swift */,
+				E655E5D21A6C391E00FD7FAC /* SatrancTaslari.swift */,
+				E655E6191A6C3DF800FD7FAC /* Bulmaca.swift */,
+				E655E6171A6C3B3000FD7FAC /* Cozum.swift */,
+				E655E6131A6C3A8100FD7FAC /* Kare.swift */,
+				E655E6111A6C3A3600FD7FAC /* Tas.swift */,
+				E655E6151A6C3ACA00FD7FAC /* Tehdit.swift */,
+				E655E61B1A6C437C00FD7FAC /* Ekran.swift */,
+				E655E5D71A6C391E00FD7FAC /* Images.xcassets */,
+				E655E5D91A6C391E00FD7FAC /* LaunchScreen.xib */,
+				E655E5F31A6C39CE00FD7FAC /* taslar */,
+				E655E5CE1A6C391E00FD7FAC /* Supporting Files */,
+			);
+			path = SatrancTaslari;
+			sourceTree = "<group>";
+		};
+		E655E5CE1A6C391E00FD7FAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E655E5CF1A6C391E00FD7FAC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E655E5E31A6C391E00FD7FAC /* SatrancTaslariTests */ = {
+			isa = PBXGroup;
+			children = (
+				E655E5E61A6C391E00FD7FAC /* SatrancTaslariTests.swift */,
+				E655E5E41A6C391E00FD7FAC /* Supporting Files */,
+			);
+			path = SatrancTaslariTests;
+			sourceTree = "<group>";
+		};
+		E655E5E41A6C391E00FD7FAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E655E5E51A6C391E00FD7FAC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E655E5F31A6C39CE00FD7FAC /* taslar */ = {
+			isa = PBXGroup;
+			children = (
+				E655E5F41A6C39CE00FD7FAC /* 0.png */,
+				E655E5F51A6C39CE00FD7FAC /* 1.png */,
+				E655E5F61A6C39CE00FD7FAC /* 2.png */,
+				E655E5F71A6C39CE00FD7FAC /* 3.png */,
+				E655E5F81A6C39CE00FD7FAC /* 4.png */,
+				E655E5F91A6C39CE00FD7FAC /* 5.png */,
+				E655E5FA1A6C39CE00FD7FAC /* 6.png */,
+				E655E5FB1A6C39CE00FD7FAC /* 7.png */,
+				E655E5FC1A6C39CE00FD7FAC /* 8.png */,
+				E655E5FD1A6C39CE00FD7FAC /* at.png */,
+				E655E5FE1A6C39CE00FD7FAC /* fil.png */,
+				E655E5FF1A6C39CE00FD7FAC /* kale.png */,
+				E655E6001A6C39CE00FD7FAC /* sah.png */,
+				E655E6011A6C39CE00FD7FAC /* vezir.png */,
+			);
+			path = taslar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E655E5CA1A6C391E00FD7FAC /* SatrancTaslari */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E655E5EA1A6C391E00FD7FAC /* Build configuration list for PBXNativeTarget "SatrancTaslari" */;
+			buildPhases = (
+				E655E5C71A6C391E00FD7FAC /* Sources */,
+				E655E5C81A6C391E00FD7FAC /* Frameworks */,
+				E655E5C91A6C391E00FD7FAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SatrancTaslari;
+			productName = SatrancTaslari;
+			productReference = E655E5CB1A6C391E00FD7FAC /* SatrancTaslari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E655E5DF1A6C391E00FD7FAC /* SatrancTaslariTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E655E5ED1A6C391E00FD7FAC /* Build configuration list for PBXNativeTarget "SatrancTaslariTests" */;
+			buildPhases = (
+				E655E5DC1A6C391E00FD7FAC /* Sources */,
+				E655E5DD1A6C391E00FD7FAC /* Frameworks */,
+				E655E5DE1A6C391E00FD7FAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E655E5E21A6C391E00FD7FAC /* PBXTargetDependency */,
+			);
+			name = SatrancTaslariTests;
+			productName = SatrancTaslariTests;
+			productReference = E655E5E01A6C391E00FD7FAC /* SatrancTaslariTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E655E5C31A6C391E00FD7FAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Olcay Taner YILDIZ";
+				TargetAttributes = {
+					E655E5CA1A6C391E00FD7FAC = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 27STVA9DYE;
+						LastSwiftMigration = 0800;
+					};
+					E655E5DF1A6C391E00FD7FAC = {
+						CreatedOnToolsVersion = 6.1.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = E655E5CA1A6C391E00FD7FAC;
+					};
+				};
+			};
+			buildConfigurationList = E655E5C61A6C391E00FD7FAC /* Build configuration list for PBXProject "SatrancTaslari" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E655E5C21A6C391E00FD7FAC;
+			productRefGroup = E655E5CC1A6C391E00FD7FAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E655E5CA1A6C391E00FD7FAC /* SatrancTaslari */,
+				E655E5DF1A6C391E00FD7FAC /* SatrancTaslariTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E655E5C91A6C391E00FD7FAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E655E60D1A6C39CE00FD7FAC /* fil.png in Resources */,
+				E655E6091A6C39CE00FD7FAC /* 6.png in Resources */,
+				E655E6071A6C39CE00FD7FAC /* 4.png in Resources */,
+				E655E6081A6C39CE00FD7FAC /* 5.png in Resources */,
+				E655E6101A6C39CE00FD7FAC /* vezir.png in Resources */,
+				E655E60F1A6C39CE00FD7FAC /* sah.png in Resources */,
+				E655E60A1A6C39CE00FD7FAC /* 7.png in Resources */,
+				E655E6021A6C39CE00FD7FAC /* bulmacalar.txt in Resources */,
+				E655E6031A6C39CE00FD7FAC /* 0.png in Resources */,
+				E655E6051A6C39CE00FD7FAC /* 2.png in Resources */,
+				E655E60E1A6C39CE00FD7FAC /* kale.png in Resources */,
+				E655E6061A6C39CE00FD7FAC /* 3.png in Resources */,
+				E655E60C1A6C39CE00FD7FAC /* at.png in Resources */,
+				E655E5F11A6C396800FD7FAC /* AnaEkran.storyboard in Resources */,
+				E655E60B1A6C39CE00FD7FAC /* 8.png in Resources */,
+				E655E6041A6C39CE00FD7FAC /* 1.png in Resources */,
+				E655E5DB1A6C391E00FD7FAC /* LaunchScreen.xib in Resources */,
+				E655E5D81A6C391E00FD7FAC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E655E5DE1A6C391E00FD7FAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E655E5C71A6C391E00FD7FAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E655E61A1A6C3DF800FD7FAC /* Bulmaca.swift in Sources */,
+				E655E6181A6C3B3000FD7FAC /* Cozum.swift in Sources */,
+				E655E6141A6C3A8100FD7FAC /* Kare.swift in Sources */,
+				E655E6121A6C3A3600FD7FAC /* Tas.swift in Sources */,
+				E655E6161A6C3ACA00FD7FAC /* Tehdit.swift in Sources */,
+				E655E5D31A6C391E00FD7FAC /* SatrancTaslari.swift in Sources */,
+				E655E5D11A6C391E00FD7FAC /* AppDelegate.swift in Sources */,
+				E655E61C1A6C437C00FD7FAC /* Ekran.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E655E5DC1A6C391E00FD7FAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E655E5E71A6C391E00FD7FAC /* SatrancTaslariTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E655E5E21A6C391E00FD7FAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E655E5CA1A6C391E00FD7FAC /* SatrancTaslari */;
+			targetProxy = E655E5E11A6C391E00FD7FAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E655E5D91A6C391E00FD7FAC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E655E5DA1A6C391E00FD7FAC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E655E5E81A6C391E00FD7FAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E655E5E91A6C391E00FD7FAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E655E5EB1A6C391E00FD7FAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SatrancTaslari/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mobile.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E655E5EC1A6C391E00FD7FAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SatrancTaslari/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mobile.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E655E5EE1A6C391E00FD7FAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SatrancTaslariTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mobile.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SatrancTaslari.app/SatrancTaslari";
+			};
+			name = Debug;
+		};
+		E655E5EF1A6C391E00FD7FAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SatrancTaslariTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mobile.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SatrancTaslari.app/SatrancTaslari";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E655E5C61A6C391E00FD7FAC /* Build configuration list for PBXProject "SatrancTaslari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E655E5E81A6C391E00FD7FAC /* Debug */,
+				E655E5E91A6C391E00FD7FAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E655E5EA1A6C391E00FD7FAC /* Build configuration list for PBXNativeTarget "SatrancTaslari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E655E5EB1A6C391E00FD7FAC /* Debug */,
+				E655E5EC1A6C391E00FD7FAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E655E5ED1A6C391E00FD7FAC /* Build configuration list for PBXNativeTarget "SatrancTaslariTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E655E5EE1A6C391E00FD7FAC /* Debug */,
+				E655E5EF1A6C391E00FD7FAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E655E5C31A6C391E00FD7FAC /* Project object */;
+}

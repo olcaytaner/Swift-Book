@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Ljy-xm-Tii">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--İngilizce Türkçe Sözlük-->
+        <scene sceneID="ce0-P2-eFE">
+            <objects>
+                <viewController id="aI0-ou-Teo" userLabel="İngilizce Türkçe Sözlük" customClass="CeviriEkran" customModule="Sozluk" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="e3z-eu-yO7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" barStyle="black" id="Fyg-Hs-UMJ">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="aI0-ou-Teo" id="S9G-3c-NmR"/>
+                            </connections>
+                        </searchBar>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" reuseIdentifier="CeviriSozlukHucre" id="moM-us-NJz">
+                                <rect key="frame" x="0.0" y="66" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="moM-us-NJz" id="Nyf-vm-NDb">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="heP-Fj-cC8">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="43" id="u1P-EM-iQF"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        </textView>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <constraints>
+                                    <constraint firstItem="heP-Fj-cC8" firstAttribute="trailing" secondItem="moM-us-NJz" secondAttribute="trailing" id="2fs-S5-rmO"/>
+                                    <constraint firstItem="heP-Fj-cC8" firstAttribute="leading" secondItem="moM-us-NJz" secondAttribute="leading" id="ONz-MK-VSK"/>
+                                    <constraint firstItem="heP-Fj-cC8" firstAttribute="top" secondItem="moM-us-NJz" secondAttribute="top" id="Qrc-UI-7th"/>
+                                </constraints>
+                            </tableViewCell>
+                        </prototypes>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="İngilizce Türkçe Sözlük" id="k5S-Vo-Z60"/>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="7kw-4H-rbs" id="kNB-b0-XrL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bW8-7A-HgZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="7kw-4H-rbs">
+                    <connections>
+                        <outlet property="delegate" destination="aI0-ou-Teo" id="VZa-PQ-0Ts"/>
+                        <outlet property="searchBar" destination="Fyg-Hs-UMJ" id="PD6-Rp-SQf"/>
+                        <outlet property="searchContentsController" destination="aI0-ou-Teo" id="9GJ-pI-v2f"/>
+                        <outlet property="searchResultsDataSource" destination="aI0-ou-Teo" id="cul-xi-4JX"/>
+                        <outlet property="searchResultsDelegate" destination="aI0-ou-Teo" id="qC9-Ul-c7n"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="65" y="372"/>
+        </scene>
+        <!--Türkçe Sözlük-->
+        <scene sceneID="tX9-rQ-ysK">
+            <objects>
+                <viewController id="OsZ-vx-hWW" customClass="SozlukEkran" customModule="Sozluk" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="mG7-Yk-v67">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" barStyle="black" id="gJH-yt-ljJ">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="OsZ-vx-hWW" id="yRx-Vb-VLS"/>
+                            </connections>
+                        </searchBar>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" reuseIdentifier="SozlukHucre" id="ft2-9A-E71">
+                                <rect key="frame" x="0.0" y="66" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ft2-9A-E71" id="UPq-eQ-kl0">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bVF-CO-EPF">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="43" id="Ax0-Oi-TRK"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        </textView>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <constraints>
+                                    <constraint firstItem="bVF-CO-EPF" firstAttribute="top" secondItem="ft2-9A-E71" secondAttribute="top" id="4VF-Di-5lH"/>
+                                    <constraint firstItem="bVF-CO-EPF" firstAttribute="leading" secondItem="ft2-9A-E71" secondAttribute="leading" id="iXT-oY-HiH"/>
+                                    <constraint firstItem="bVF-CO-EPF" firstAttribute="trailing" secondItem="ft2-9A-E71" secondAttribute="trailing" id="pOV-IL-g3r"/>
+                                </constraints>
+                            </tableViewCell>
+                        </prototypes>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Türkçe Sözlük" id="qhb-wF-SHq"/>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="G2d-Bd-fEf" id="ev8-XS-wTw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aoy-FH-oTB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="G2d-Bd-fEf">
+                    <connections>
+                        <outlet property="delegate" destination="OsZ-vx-hWW" id="9ES-0i-0ZF"/>
+                        <outlet property="searchBar" destination="gJH-yt-ljJ" id="NYG-xv-eoj"/>
+                        <outlet property="searchContentsController" destination="OsZ-vx-hWW" id="1CS-z5-g03"/>
+                        <outlet property="searchResultsDataSource" destination="OsZ-vx-hWW" id="bKS-mT-QBZ"/>
+                        <outlet property="searchResultsDelegate" destination="OsZ-vx-hWW" id="7SV-m3-fhr"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="65" y="-297"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="7TD-c4-vUo">
+            <objects>
+                <tabBarController definesPresentationContext="YES" id="Ljy-xm-Tii" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="VHJ-NO-0D1">
+                        <rect key="frame" x="129" y="330" width="163" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="OsZ-vx-hWW" kind="relationship" relationship="viewControllers" id="XpJ-UU-rJN"/>
+                        <segue destination="aI0-ou-Teo" kind="relationship" relationship="viewControllers" id="dZZ-fx-JOk"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M3L-u5-D38" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-525" y="20"/>
+        </scene>
+    </scenes>
+</document>

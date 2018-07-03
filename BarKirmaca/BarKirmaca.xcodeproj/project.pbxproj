@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E612083C1A719A37004981DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E612083B1A719A37004981DD /* AppDelegate.swift */; };
+		E612083E1A719A37004981DD /* TuglaKirmaca.swift in Sources */ = {isa = PBXBuildFile; fileRef = E612083D1A719A37004981DD /* TuglaKirmaca.swift */; };
+		E61208431A719A37004981DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E61208421A719A37004981DD /* Images.xcassets */; };
+		E61208461A719A37004981DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E61208441A719A37004981DD /* LaunchScreen.xib */; };
+		E61208521A719A37004981DD /* BarKirmacaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61208511A719A37004981DD /* BarKirmacaTests.swift */; };
+		E612085D1A719A8A004981DD /* AnaEkran.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E612085B1A719A8A004981DD /* AnaEkran.storyboard */; };
+		E612085E1A719A8A004981DD /* seviyeler.txt in Resources */ = {isa = PBXBuildFile; fileRef = E612085C1A719A8A004981DD /* seviyeler.txt */; };
+		E621653C1A72258C0028C20F /* Cubuk.swift in Sources */ = {isa = PBXBuildFile; fileRef = E621653B1A72258C0028C20F /* Cubuk.swift */; };
+		E621653E1A72274F0028C20F /* DusenTugla.swift in Sources */ = {isa = PBXBuildFile; fileRef = E621653D1A72274F0028C20F /* DusenTugla.swift */; };
+		E633AD121A72186F001D2900 /* TuglaTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E633AD111A72186F001D2900 /* TuglaTip.swift */; };
+		E633AD141A7219E0001D2900 /* Tugla.swift in Sources */ = {isa = PBXBuildFile; fileRef = E633AD131A7219E0001D2900 /* Tugla.swift */; };
+		E633AD161A721AEF001D2900 /* Top.swift in Sources */ = {isa = PBXBuildFile; fileRef = E633AD151A721AEF001D2900 /* Top.swift */; };
+		E63505111A72AB970043949E /* Ekran.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63505101A72AB970043949E /* Ekran.swift */; };
+		E650B8351A72736C0069FE6F /* Seviye.swift in Sources */ = {isa = PBXBuildFile; fileRef = E650B8341A72736C0069FE6F /* Seviye.swift */; };
+		E650B8371A7279490069FE6F /* Oyun.swift in Sources */ = {isa = PBXBuildFile; fileRef = E650B8361A7279490069FE6F /* Oyun.swift */; };
+		E650B8391A727C2B0069FE6F /* Parametre.swift in Sources */ = {isa = PBXBuildFile; fileRef = E650B8381A727C2B0069FE6F /* Parametre.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E612084C1A719A37004981DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E612082E1A719A37004981DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E61208351A719A37004981DD;
+			remoteInfo = BarKirmaca;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E61208361A719A37004981DD /* BarKirmaca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarKirmaca.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E612083A1A719A37004981DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E612083B1A719A37004981DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E612083D1A719A37004981DD /* TuglaKirmaca.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuglaKirmaca.swift; sourceTree = "<group>"; };
+		E61208421A719A37004981DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E61208451A719A37004981DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E612084B1A719A37004981DD /* BarKirmacaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarKirmacaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E61208501A719A37004981DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E61208511A719A37004981DD /* BarKirmacaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarKirmacaTests.swift; sourceTree = "<group>"; };
+		E612085B1A719A8A004981DD /* AnaEkran.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AnaEkran.storyboard; sourceTree = "<group>"; };
+		E612085C1A719A8A004981DD /* seviyeler.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = seviyeler.txt; sourceTree = "<group>"; };
+		E621653B1A72258C0028C20F /* Cubuk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cubuk.swift; sourceTree = "<group>"; };
+		E621653D1A72274F0028C20F /* DusenTugla.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DusenTugla.swift; sourceTree = "<group>"; };
+		E633AD111A72186F001D2900 /* TuglaTip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TuglaTip.swift; sourceTree = "<group>"; };
+		E633AD131A7219E0001D2900 /* Tugla.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tugla.swift; sourceTree = "<group>"; };
+		E633AD151A721AEF001D2900 /* Top.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Top.swift; sourceTree = "<group>"; };
+		E63505101A72AB970043949E /* Ekran.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ekran.swift; sourceTree = "<group>"; };
+		E650B8341A72736C0069FE6F /* Seviye.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Seviye.swift; sourceTree = "<group>"; };
+		E650B8361A7279490069FE6F /* Oyun.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Oyun.swift; sourceTree = "<group>"; };
+		E650B8381A727C2B0069FE6F /* Parametre.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parametre.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E61208331A719A37004981DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E61208481A719A37004981DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E612082D1A719A37004981DD = {
+			isa = PBXGroup;
+			children = (
+				E61208381A719A37004981DD /* BarKirmaca */,
+				E612084E1A719A37004981DD /* BarKirmacaTests */,
+				E61208371A719A37004981DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E61208371A719A37004981DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E61208361A719A37004981DD /* BarKirmaca.app */,
+				E612084B1A719A37004981DD /* BarKirmacaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E61208381A719A37004981DD /* BarKirmaca */ = {
+			isa = PBXGroup;
+			children = (
+				E612085B1A719A8A004981DD /* AnaEkran.storyboard */,
+				E612085C1A719A8A004981DD /* seviyeler.txt */,
+				E612083B1A719A37004981DD /* AppDelegate.swift */,
+				E612083D1A719A37004981DD /* TuglaKirmaca.swift */,
+				E633AD111A72186F001D2900 /* TuglaTip.swift */,
+				E633AD131A7219E0001D2900 /* Tugla.swift */,
+				E621653D1A72274F0028C20F /* DusenTugla.swift */,
+				E633AD151A721AEF001D2900 /* Top.swift */,
+				E621653B1A72258C0028C20F /* Cubuk.swift */,
+				E650B8341A72736C0069FE6F /* Seviye.swift */,
+				E650B8361A7279490069FE6F /* Oyun.swift */,
+				E650B8381A727C2B0069FE6F /* Parametre.swift */,
+				E63505101A72AB970043949E /* Ekran.swift */,
+				E61208421A719A37004981DD /* Images.xcassets */,
+				E61208441A719A37004981DD /* LaunchScreen.xib */,
+				E61208391A719A37004981DD /* Supporting Files */,
+			);
+			path = BarKirmaca;
+			sourceTree = "<group>";
+		};
+		E61208391A719A37004981DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E612083A1A719A37004981DD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E612084E1A719A37004981DD /* BarKirmacaTests */ = {
+			isa = PBXGroup;
+			children = (
+				E61208511A719A37004981DD /* BarKirmacaTests.swift */,
+				E612084F1A719A37004981DD /* Supporting Files */,
+			);
+			path = BarKirmacaTests;
+			sourceTree = "<group>";
+		};
+		E612084F1A719A37004981DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E61208501A719A37004981DD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E61208351A719A37004981DD /* BarKirmaca */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E61208551A719A37004981DD /* Build configuration list for PBXNativeTarget "BarKirmaca" */;
+			buildPhases = (
+				E61208321A719A37004981DD /* Sources */,
+				E61208331A719A37004981DD /* Frameworks */,
+				E61208341A719A37004981DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarKirmaca;
+			productName = BarKirmaca;
+			productReference = E61208361A719A37004981DD /* BarKirmaca.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E612084A1A719A37004981DD /* BarKirmacaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E61208581A719A37004981DD /* Build configuration list for PBXNativeTarget "BarKirmacaTests" */;
+			buildPhases = (
+				E61208471A719A37004981DD /* Sources */,
+				E61208481A719A37004981DD /* Frameworks */,
+				E61208491A719A37004981DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E612084D1A719A37004981DD /* PBXTargetDependency */,
+			);
+			name = BarKirmacaTests;
+			productName = BarKirmacaTests;
+			productReference = E612084B1A719A37004981DD /* BarKirmacaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E612082E1A719A37004981DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Olcay Taner YILDIZ";
+				TargetAttributes = {
+					E61208351A719A37004981DD = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 27STVA9DYE;
+						LastSwiftMigration = 0810;
+					};
+					E612084A1A719A37004981DD = {
+						CreatedOnToolsVersion = 6.1.1;
+						LastSwiftMigration = 0810;
+						TestTargetID = E61208351A719A37004981DD;
+					};
+				};
+			};
+			buildConfigurationList = E61208311A719A37004981DD /* Build configuration list for PBXProject "BarKirmaca" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E612082D1A719A37004981DD;
+			productRefGroup = E61208371A719A37004981DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E61208351A719A37004981DD /* BarKirmaca */,
+				E612084A1A719A37004981DD /* BarKirmacaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E61208341A719A37004981DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E612085D1A719A8A004981DD /* AnaEkran.storyboard in Resources */,
+				E61208461A719A37004981DD /* LaunchScreen.xib in Resources */,
+				E61208431A719A37004981DD /* Images.xcassets in Resources */,
+				E612085E1A719A8A004981DD /* seviyeler.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E61208491A719A37004981DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E61208321A719A37004981DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E612083E1A719A37004981DD /* TuglaKirmaca.swift in Sources */,
+				E633AD121A72186F001D2900 /* TuglaTip.swift in Sources */,
+				E621653C1A72258C0028C20F /* Cubuk.swift in Sources */,
+				E650B8391A727C2B0069FE6F /* Parametre.swift in Sources */,
+				E633AD161A721AEF001D2900 /* Top.swift in Sources */,
+				E650B8371A7279490069FE6F /* Oyun.swift in Sources */,
+				E650B8351A72736C0069FE6F /* Seviye.swift in Sources */,
+				E621653E1A72274F0028C20F /* DusenTugla.swift in Sources */,
+				E612083C1A719A37004981DD /* AppDelegate.swift in Sources */,
+				E63505111A72AB970043949E /* Ekran.swift in Sources */,
+				E633AD141A7219E0001D2900 /* Tugla.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E61208471A719A37004981DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E61208521A719A37004981DD /* BarKirmacaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E612084D1A719A37004981DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E61208351A719A37004981DD /* BarKirmaca */;
+			targetProxy = E612084C1A719A37004981DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E61208441A719A37004981DD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E61208451A719A37004981DD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E61208531A719A37004981DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E61208541A719A37004981DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E61208561A719A37004981DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = BarKirmaca/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mobile.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E61208571A719A37004981DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = BarKirmaca/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mobile.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E61208591A719A37004981DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BarKirmacaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mobile.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarKirmaca.app/BarKirmaca";
+			};
+			name = Debug;
+		};
+		E612085A1A719A37004981DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BarKirmacaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mobile.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarKirmaca.app/BarKirmaca";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E61208311A719A37004981DD /* Build configuration list for PBXProject "BarKirmaca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E61208531A719A37004981DD /* Debug */,
+				E61208541A719A37004981DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E61208551A719A37004981DD /* Build configuration list for PBXNativeTarget "BarKirmaca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E61208561A719A37004981DD /* Debug */,
+				E61208571A719A37004981DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E61208581A719A37004981DD /* Build configuration list for PBXNativeTarget "BarKirmacaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E61208591A719A37004981DD /* Debug */,
+				E612085A1A719A37004981DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E612082E1A719A37004981DD /* Project object */;
+}

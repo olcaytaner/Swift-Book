@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "BarKirmaca.Ekran.drawRect (BarKirmaca.Ekran)(C.CGRect) -&gt; ():Ekran.swift">
+      </ContextState>
+      <ContextState
+         contextName = "BarKirmaca.Oyun.init (BarKirmaca.Oyun.Type)(dosyaAd : Swift.String, genislik : CoreGraphics.CGFloat) -&gt; BarKirmaca.Oyun:Oyun.swift">
+      </ContextState>
+      <ContextState
+         contextName = "BarKirmaca.Seviye.tugla (BarKirmaca.Seviye)(Swift.Int, sutun : Swift.Int) -&gt; BarKirmaca.Tugla:Seviye.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "satirlar[0].count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BarKirmaca.Seviye.satirAyarla (BarKirmaca.Seviye)(Swift.Int, satirBilgi : Swift.String) -&gt; ():Seviye.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "satirlar[0].count">
+            </PersistentString>
+            <PersistentString
+               value = "satirEklenen.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

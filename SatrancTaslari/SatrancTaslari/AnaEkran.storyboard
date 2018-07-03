@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="2">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Satranc Taslari-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="SatrancTaslari" customModule="SatrancTaslari" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aXO-27-DSs"/>
+                        <viewControllerLayoutGuide type="bottom" id="eAz-Ko-sSa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3" customClass="Ekran" customModule="SatrancTaslari" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G9X-Jf-pj7">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="19" id="9yv-TW-DNg"/>
+                                    <constraint firstAttribute="width" constant="50" id="BMZ-70-Fra"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fMi-xy-UYm">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="66" id="1hP-Ke-34x"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Kontrol">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="kontrolEtTikla:" destination="2" eventType="touchUpInside" id="0a5-XH-3Uj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ciJ-rw-WsC">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="64" id="M2Z-rP-9cY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Çöz">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="cozTikla:" destination="2" eventType="touchUpInside" id="hbs-de-uHW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cZb-QF-aGi">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="jbh-uS-smJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Yeni Oyun">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="yeniOyunTikla:" destination="2" eventType="touchUpInside" id="XDw-vL-b5E"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="cZb-QF-aGi" firstAttribute="baseline" secondItem="ciJ-rw-WsC" secondAttribute="baseline" id="1bU-oP-v2d"/>
+                            <constraint firstItem="G9X-Jf-pj7" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" id="Hba-Y8-u0q"/>
+                            <constraint firstItem="G9X-Jf-pj7" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="7" id="Hn0-E3-nyL"/>
+                            <constraint firstItem="fMi-xy-UYm" firstAttribute="leading" secondItem="G9X-Jf-pj7" secondAttribute="trailing" constant="8" symbolic="YES" id="N01-UG-dQr"/>
+                            <constraint firstItem="cZb-QF-aGi" firstAttribute="baseline" secondItem="fMi-xy-UYm" secondAttribute="baseline" id="PKL-ou-Y9u"/>
+                            <constraint firstItem="cZb-QF-aGi" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="147" id="UKL-6J-wcE"/>
+                            <constraint firstAttribute="trailing" secondItem="ciJ-rw-WsC" secondAttribute="trailing" constant="6" id="af1-rv-aGy"/>
+                            <constraint firstItem="fMi-xy-UYm" firstAttribute="baseline" secondItem="G9X-Jf-pj7" secondAttribute="baseline" id="nCc-MN-i6n"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="1cf-HE-LHm" appends="YES" id="Kpf-T4-mh8"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="Ekran" destination="3" id="3jC-6t-zkQ"/>
+                        <outlet property="ekran" destination="3" id="Pp9-CS-HZb"/>
+                        <outlet property="zamanGosterge" destination="G9X-Jf-pj7" id="fda-52-440"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="1cf-HE-LHm">
+                    <connections>
+                        <action selector="hareketEttir:" destination="2" id="rla-Um-dbK"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>
